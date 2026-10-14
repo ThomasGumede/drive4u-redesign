@@ -1,0 +1,5 @@
+{
+  "name": "drive4u/website",
+  "description": "Drive4U e-hailing fleet management website",
+  "require": { "php": "^8.1", "phpmailer/phpmailer": "^6.9" }
+}

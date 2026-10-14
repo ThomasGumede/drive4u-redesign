@@ -1,0 +1,74 @@
+
+# ==========================================
+# DRIVE4U WEBSITE - .gitignore
+# ==========================================
+
+# Composer dependencies
+/vendor/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Local configuration containing credentials
+/config/local.php
+/config/secrets.php
+/includes/secrets.php
+
+# SMTP and API credentials
+smtp-config.php
+recaptcha-config.php
+
+# Logs
+*.log
+/logs/
+/error_log
+
+# Cache and temporary files
+/cache/
+/tmp/
+/temp/
+*.tmp
+*.cache
+
+# User uploads and attachments
+/uploads/*
+!/uploads/.gitkeep
+
+# Node.js dependencies (if used)
+/node_modules/
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Windows files
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS files
+.DS_Store
+.AppleDouble
+
+# PHP testing and build files
+.phpunit.result.cache
+/phpunit.xml
+/coverage/
+/build/
+
+# Backup files
+*.bak
+*.backup
+*.old
+*.orig
+*.sql
+*.sql.gz
+*.zip
+
+# Local development files
+/.phpunit.cache/
